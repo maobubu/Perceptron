@@ -1,0 +1,96 @@
+start:
+learning rate has been set to:0.05
+stop criteria has been set to:500
+bias has been set to:1
+
+the first node:
+the initial weight is:[1, 0, 0, 0, 0]
+epoch: 7
+final weight is  [1.0, 0.0, 0.27500000000000013, -0.49000000000000005, -0.22999999999999993]
+
+the second node:
+the initial weight is:[-4, 0, 0, 0, 0]
+epoch: 500
+final weight is  [-4.749999999999997, 3.3649999999999842, -3.3849999999998257, -0.6050000000000335, -6.609999999999777]
+
+the third node:
+the initial weight is:[1, 0, 0, 0, 0]
+epoch: 500
+final weight is  [-1.2500000000000009, -3.139999999999934, -5.7400000000000215, 5.359999999999887, 7.899999999999953]
+
+ Node One, Node Two, Node Three true output
+One: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Two: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Three: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+ final testing output:
+(1,0,0) represent Iris-setosa
+(0,1,0)represent Iris-versicolor
+(0,0,1) represents Iris-virginica
+Other combination represents other
+Final output:
+ [(1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (1, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 0), (0, 0, 1), (0, 0, 0), (0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1)]
+Vectors that are not as the combination mentioned above will be randomly classified as one of the 3 classes
+
+Classified as Iris-setosa:
+5.1,3.5,1.4,0.2,Iris-setosa
+4.9,3.0,1.4,0.2,Iris-setosa
+4.7,3.2,1.3,0.2,Iris-setosa
+4.6,3.1,1.5,0.2,Iris-setosa
+5.0,3.6,1.4,0.2,Iris-setosa
+5.4,3.9,1.7,0.4,Iris-setosa
+4.6,3.4,1.4,0.3,Iris-setosa
+5.0,3.4,1.5,0.2,Iris-setosa
+4.4,2.9,1.4,0.2,Iris-setosa
+4.9,3.1,1.5,0.1,Iris-setosa
+5.6,2.9,3.6,1.3,Iris-versicolor
+6.7,3.1,4.4,1.4,Iris-versicolor
+5.0,2.0,3.5,1.0,Iris-versicolor
+5.6,3.0,4.5,1.5,Iris-versicolor
+
+Classified as Iris-versicolor:
+6.0,2.2,4.0,1.0,Iris-versicolor
+5.6,2.5,3.9,1.1,Iris-versicolor
+5.9,3.0,4.2,1.5,Iris-versicolor
+
+Classified as Iris-virginica:
+6.1,3.0,4.9,1.8,Iris-virginica
+6.4,2.8,5.6,2.1,Iris-virginica
+7.2,3.0,5.8,1.6,Iris-virginica
+7.4,2.8,6.1,1.9,Iris-virginica
+7.9,3.8,6.4,2.0,Iris-virginica
+6.4,2.8,5.6,2.2,Iris-virginica
+6.3,2.8,5.1,1.5,Iris-virginica
+6.1,2.6,5.6,1.4,Iris-virginica
+7.7,3.0,6.1,2.3,Iris-virginica
+6.3,3.4,5.6,2.4,Iris-virginica6.2,2.2,4.5,1.5,Iris-versicolor
+5.8,2.7,4.1,1.0,Iris-versicolor
+6.1,2.9,4.7,1.4,Iris-versicolor
+The precision and recall
+
+Class one Iris-setosa:
+Precision:0.7142857142857143
+Recall:1.0
+
+Class two Iris-versicolor:
+Precision:1.0
+Recall:0.3
+
+Class three Iris-virginica:
+Precision:0.7692307692307693
+Recall:1.0
+
+Sum squared error is 7
+
+The Classification Error is 23.333333333333332%
+
+The Precision and Recall by using Weka Tool:
+    Class Iris-setosa:          Precision: 1.000  Recall: 1.000
+    Class Iris-versicolor:      Precision :0.769 Recall: 1.000
+    Class Iris-verginica:       Precision: 1.000 Recall: 0.700
+    Classification Error is:                 90%
+    Mean absolute error                      0.132 
+    Root mean squared error                  0.256 
+    Relative absolute error                 29.7109 %
+    Root relative squared error             54.3162 %
+    Total Number of Instances               30
+    
