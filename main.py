@@ -15,7 +15,6 @@ any of the vector listed above, then it will be randomly classified as one of th
 The best Result I got is about 80% accuracy!
 The folder "Weka tool implement" contains the informations by using the tool Weka.
 the folder"__pycache__" is the cache after running the code.
-Please contact me if there are any problems email:  17hl7@queensu.ca
 ---------------------------------------------
 '''
 print("This is a perceptron algorithm\nauthor: Huicheng Liu\nDate:1/22/2018")
